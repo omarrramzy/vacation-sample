@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+    font-weight: 900;
+}
+
+body{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Markazi Text', serif;
+}
+
+#shown{
+    position: absolute;
+    top: 70%;
+    right: 40px;
+    max-width: 2000px;
+    text-align: center;
+    direction: rtl;
+}
+
+header{
+    line-height: 35px;
+    display: flex;
+    flex-direction: column;
+}
+
+input,
+button{
+    height: 25px;
+}
+
+#myBtn{
+    margin-top: 25px;
+    background-color: lightslategray;
+    border: none;
+}
+
+#vac{
+    color: lightslategray;
+    text-align: center;
+    margin: 15px;
+}
